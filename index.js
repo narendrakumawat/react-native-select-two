@@ -21,14 +21,16 @@ class Select2 extends Component {
     buttonTextStyle: {},
     buttonStyle: {},
     showSearchBox: true,
-    squreCheckBox: false
+    squreCheckBox: false,
+    multipleCheckBoxEnable: false,
   }
   state = {
     show: false,
     preSelectedItem: [],
     selectedItem: [],
     data: [],
-    keyword: ''
+    keyword: '',
+    multipleCheckBoxEnable: false,
   }
   animatedHeight = new Animated.Value(INIT_HEIGHT);
 
